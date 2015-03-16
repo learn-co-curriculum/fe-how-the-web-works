@@ -1,0 +1,10 @@
+languages:
+  - bash
+tags:
+  - web
+  - fundamentals
+  - request
+  - response
+type:
+  - lecture
+resources: 0
