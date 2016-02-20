@@ -1,5 +1,5 @@
 languages:
-  - bash
+  - none
 tags:
   - web
   - fundamentals
@@ -7,4 +7,4 @@ tags:
   - response
 type:
   - lecture
-resources: 0
+resources: 3
