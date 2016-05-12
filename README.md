@@ -2,14 +2,14 @@
 
 ## Overview
 
-In this lesson we will learn the fundamentals of of the web. Covering web terminology, request and response cycle, DNS, Hosts, Domains, IP Addresses, and the role HTML, CSS, and JavaScript will play in the pages you build.
+In this lesson we will learn the fundamentals of of the web. This will include web terminology, request and response cycle, DNS, Hosts, Domains, IP Addresses, and the role HTML, CSS, and JavaScript will play in the pages you build.
 
 ## Objectives
 
-1. How our browsers connect to a server to retrieve web pages.
-2. The role domains, IPs, DNS, and host servers play.
-3. The headers and body of the request and response cycle.
-4. Understand the relationship of front-end to back-end.
+1. Explain hpw browsers connect to a server to retrieve web pages.
+2. Describe the role domains, IPs, DNS, and host servers play.
+3. Recognize the headers and body of the request and response cycle.
+4. Explain the relationship of front-end to back-end
 
 ## Understanding The World Wide Web
 
@@ -19,7 +19,7 @@ In this lesson we will learn the fundamentals of of the web. Covering web termin
 
 ### Domains, IPs, and DNS
 
-Let's discuss the process of viewing a webpage in your browser. Imagine you're sitting in your favorite cafe, library, or at home. You eagerly type in your favorite site. Seemingly magically, text and graphics zip across the world to your screen. What's really happening under the hood? When you type in the domain name `www.facebook.com` your browser connects to a DNS (Domain Name Server). These servers are like the operators of the internet. They do not contain webpages per se, but instead they contain a list of IP addresses associated with domain names. IP addresses identify the unique location of a server anywhere on the internet. Each server has a unique static IP. Much in the same way the post office knows to deliver your mail based on your home address, IPs work simmiliarly in that they allow us to send communication across the web from one computer to another. The DNS server we first talk to looks up the domain we typed in "www.facebook.com" and associates it with the IP address "31.13.73.36" now that our computer knows the correct IP (thanks DNS), it will attempt to connect to that IP directly. One way we can see this process is from the Terminal. If you open the Terminal and type `ping www.facebook.com` it will respond with the following: 
+Let's discuss the process of viewing a webpage in your browser. Imagine you're sitting in your favorite cafe, library, or at home. You eagerly type in your favorite site. Seemingly magically, text and graphics zip across the world to your screen. What's really happening under the hood? When you type in the domain name `www.facebook.com` your browser connects to a DNS (Domain Name Server). These servers are like the operators of the internet. They do not contain webpages per se, but instead they contain a list of IP addresses associated with domain names. IP addresses identify the unique location of a server anywhere on the internet. Each server has a unique static IP. Much in the same way the post office knows to deliver your mail based on your home address, IPs work similiarly in that they allow us to send communication across the web from one computer to another. The DNS server we first talk to looks up the domain we typed in "www.facebook.com" and associates it with the IP address "31.13.73.36" now that our computer knows the correct IP (thanks DNS), it will attempt to connect to that IP directly. One way we can see this process is from the Terminal. If you open the Terminal and type `ping www.facebook.com` it will respond with the following: 
 
 ```shell
 PING star-mini.c10r.facebook.com (31.13.73.36): 56 data bytes
@@ -61,6 +61,5 @@ Front-end development refers to writing the code that is interpreted by the brow
 - [How Stuff Works - The Internet](http://computer.howstuffworks.com/internet/basics/internet.htm)
 - [Wikipedia - Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-how-the-web-works' title='How The Web Works ~ 9min'>How The Web Works ~ 9min</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-how-the-web-works'>How The Web Works</a> on Learn.co and start learning to code for free.</p>
