@@ -6,7 +6,7 @@ In this lesson we will learn the fundamentals of of the web. This will include w
 
 ## Objectives
 
-1. Explain hpw browsers connect to a server to retrieve web pages.
+1. Explain how browsers connect to a server to retrieve web pages.
 2. Describe the role domains, IPs, DNS, and host servers play.
 3. Recognize the headers and body of the request and response cycle.
 4. Explain the relationship of front-end to back-end
@@ -63,3 +63,5 @@ Front-end development refers to writing the code that is interpreted by the brow
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-how-the-web-works'>How The Web Works</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/fe-how-the-web-works'>How The Web Works</a> on Learn.co and start learning to code for free.</p>
